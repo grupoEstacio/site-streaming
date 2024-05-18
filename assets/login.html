@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <title>Página de login</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Entrar</h1>
+
+            <div id="erro">[ERROR]</div>
+            <div id="sucesso">SUCESSO</div>
+
+            <div class="label_float">
+                <input type="text" id="usuario" placeholder=" " required>
+                <label id="labelUsuario" for="usario">Usuário</label>
+            </div>
+            <div class="label_float">
+                <input type="password" id="senha" placeholder=" " required>
+                <label id="labelSenha" for="senha">Senha</label>
+                <button class="olho"></button>
+            </div>
+            <div class="justify_center">
+                <button onclick="entrar()"><a href="../assets/filmes.html">Entrar</a></button>
+            </div>
+            <div class="justify_center">
+                <hr>
+            </div>
+            <p>
+                Não tem uma conta? 
+                <a href="../assets/cadastro.html">Cadastre-se</a>
+            </p>
+        </div>
+    </div>
+    <script src="../assets/js/login.js"></script>
+</body>
+</html>
