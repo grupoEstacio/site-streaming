@@ -10,7 +10,7 @@ red=  rgb(190, 15, 15);
     
 }
 body {
-    background-image:url(../image/bgpipoca.jpg);
+    background-image:url(../image/logo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -100,7 +100,7 @@ button {
     outline: none;
 }
 button:hover {
-    background-color: white;
+    background-color: #272262;
     color: brown ;
 }
 .justify_center {
